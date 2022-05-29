@@ -186,7 +186,7 @@ for i in range(asteroid_num_var):
     clone.z = np.sin(asteroid_t) * asteroid_radius
 asteroid.visible = False
 
-Sky(texture="space")
+Sky(texture="assets/space")
 
 player = FirstPersonController(position=(0, 3500, 0), gravity=0, speed=400)
 
